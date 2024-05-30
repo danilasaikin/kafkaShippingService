@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+app:
+  kafka:
+    payedOrdersTopic: "payed_orders"
+    sentOrdersTopic: "sent_orders"
+    groupId: "shipping-group"
