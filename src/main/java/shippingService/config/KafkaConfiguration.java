@@ -1,4 +1,4 @@
-package shipping.Service.config;
+package shippingService.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
@@ -12,7 +12,7 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.*;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.springframework.kafka.support.serializer.JsonSerializer;
-import shipping.Service.model.Order;
+import shippingService.model.Order;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package shipping.Service.model;
+package shippingService.model;
 
 import lombok.Data;
 

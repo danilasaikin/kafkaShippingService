@@ -1,4 +1,4 @@
-package shipping.Service;
+package shippingService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
